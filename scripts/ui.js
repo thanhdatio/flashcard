@@ -38,13 +38,13 @@ function createCardElement(card, onDelete) {
   cardDOM.innerHTML = `
   <div class="card-container">
   		<div class="inner-card-front">
-			<h2 class="mb20">Question:</h2>
+			<h2 class="mb20">Câu hỏi:</h2>
 			<p class="card-front">
 			${card.front}
 			</p>
 	 	</div>
 	 	<div class="inner-card-back">
-	 		<h2 class="mb20">Answer:</h2>
+	 		<h2 class="mb20">Đáp án:</h2>
 			<p class="card-back">
 			${card.back}
 			</p>
@@ -105,7 +105,7 @@ searchBtn.addEventListener("click", () => {
   let searchArr = searchCard(searchValue);
   showCards(searchArr);
   if (searchArr.length === 0) {
-    alert("There are no similar words!");
+    alert("Không có từ nào tương tự!");
   }
   search.value = "";
 });
