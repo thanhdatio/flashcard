@@ -17,25 +17,25 @@
 	<div class="container">
 		<div class="card__intro center">
 			<h1>Flashcards</h1>
-			<p class="text">It is a popular way to memorize words and concepts. Cards have 2 sides that change when you press a button.</p>
+			<p class="text">Ứng dụng thẻ Flashcard giúp ghi nhớ thông tin và các từ vựng trong học ngoại ngữ</p>
 			<div class="card__img">
 				<img src="sass/img/flashcards.svg" alt="Flashcard stack">
 			</div>
-			<button id="show-btn" class="btn btn--blue btn--large">Add a new card</button>
+			<button id="show-btn" class="btn btn--blue btn--large">Thêm thẻ mới</button>
 		</div>
 		<div class="card-search">
 	<div class="card-search__wrap">
 		<input type="text" id="search">
-		<button class="btn btn--green" id="search-btn">Search card</button>
+		<button class="btn btn--green" id="search-btn">Tìm thẻ</button>
 		<ul id="results">
-			<div id="error-search" class="error-search">There are no similar words!</div>
+			<div id="error-search" class="error-search">Không có từ nào tương tự!</div>
 		</ul>
 	</div>
 </div>
 		<div id="card-list" class="card-list"></div>
 		<div class="center card-clear">
 				<button id="clear" class="btn btn--green">
-      <i class="fas fa-trash icon"></i> Clear Cards
+      <i class="fas fa-trash icon"></i> Xóa thẻ
     </button>
 		</div>
 
@@ -43,18 +43,18 @@
 	<div class="card-window" id="card-window">
 		<div class="card-window__wrap">		
 			<a href="#" class="card-window__close icon" id="close"><i class="fas fa-window-close card-window__close"></i></a>
-			<h2 class="center">Create a flashcard</h2>
-			<div class="error-message">Please, fill all the fields!</div>
+			<h2 class="center">Tạo flashcard mới</h2>
+			<div class="error-message">Hãy điền hết các mục!</div>
 			<form id="card-form" class="card-form">
 				<div class="card-form__group">
-					<label for="question">Card question:</label>
+					<label for="question">Câu hỏi:</label>
 					<textarea name="answer" id="question" cols="30" rows="10" placeholder="Type your question..."></textarea>
 				</div>
 				<div class="card-form__group">
-					<label for="answer">Card answer:</label>
+					<label for="answer">Đáp án:</label>
 					<textarea name="answer" id="answer" cols="30" rows="10" placeholder="Type your answer..."></textarea>
 				</div>
-				<button type="submit" class="btn btn--green" id="save-card">Save card</button>
+				<button type="submit" class="btn btn--green" id="save-card">Lưu thẻ</button>
 			</form>
 			</div>
 		</div>
